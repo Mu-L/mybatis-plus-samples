@@ -47,7 +47,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <mybatisplus.version>3.5.15</mybatisplus.version>
+        <mybatisplus.version>3.5.16</mybatisplus.version>
         <skipTests>false</skipTests>
         <argLine>-Dfile.encoding=UTF-8</argLine>
     </properties>
@@ -204,7 +204,7 @@
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-dependencies</artifactId>
-                    <version>4.0.0</version>
+                    <version>4.0.1</version>
                     <type>pom</type>
                     <scope>import</scope>
                 </dependency>
@@ -220,7 +220,7 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>4.0.0</version>
+                    <version>4.0.1</version>
                 </plugin>
             </plugins>
         </build>
@@ -239,12 +239,6 @@
         <repository>
             <id>snapshots</id>
             <url>https://central.sonatype.com/repository/maven-snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
         </repository>
     </repositories>
 
